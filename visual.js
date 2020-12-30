@@ -16,7 +16,7 @@ export class Visual {
         document.addEventListener('pointermove', this.onMove.bind(this), false);
     }
     show1(stageWidth, stageHeight){
-        this.pos = this.text.setText('☆happy 2020☆', 20, stageWidth, stageHeight);
+        this.pos = this.text.setText('☆2020☆', 20, stageWidth, stageHeight);
         this.posTotal = this.pos.length - 1;
     }
     show2(stageWidth, stageHeight){
